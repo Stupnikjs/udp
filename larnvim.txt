@@ -1,0 +1,6 @@
+vim shortcut 
+
+normal mode 
+
+
+insert mode
