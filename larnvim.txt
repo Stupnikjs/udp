@@ -7,3 +7,5 @@ insert mode
 
 Ctrl + F: Scrolls the screen down one page without moving the cursor
 
+Ctrl + B: Scrolls the screen up one page without moving the cursor.
+
