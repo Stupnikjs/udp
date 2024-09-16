@@ -8,6 +8,7 @@ k haut
 l droite
 
 gg debut du fichier
+G fin ficher
 
 insert mode
 
