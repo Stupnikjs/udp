@@ -2,6 +2,10 @@ vim shortcut
 
 normal mode 
 
+h gauche
+j bas 
+k haut
+l droite
 
 insert mode
 
