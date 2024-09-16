@@ -4,3 +4,6 @@ normal mode
 
 
 insert mode
+
+Ctrl + F: Scrolls the screen down one page without moving the cursor
+
