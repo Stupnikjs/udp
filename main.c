@@ -18,6 +18,7 @@ int main() {
     char buffer[BUFFER_SIZE];
 
     // Create UDP socket
+    // SOCK_DGRAM smecify UDP protocol
     sockfd = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
     if (sockfd < 0) {
         perror("Error creating socket");
