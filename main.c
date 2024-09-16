@@ -13,13 +13,22 @@
 
 int main() {
     int sockfd, connfd;
+
+    // sockaddr_in TYPE 
     struct sockaddr_in server_addr, client_addr;
+      
+    // socketlen_t TYPE
     socklen_t client_len = sizeof(client_addr);
+    
+     
     char buffer[BUFFER_SIZE];
 
     // Create UDP socket
     // SOCK_DGRAM smecify UDP protocol
+    // IPPROTO_UDP to 0 also mean UDP
     sockfd = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+    
+    
     if (sockfd < 0) {
         perror("Error creating socket");
         exit(1);
