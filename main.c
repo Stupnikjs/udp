@@ -42,6 +42,7 @@ int main() {
     * htons() function converts the port            number from host byte order to network byte order, which is essential for proper communication between different systems.
     */
     server_addr.sin_port = htons(PORT);
+    /* converts the IPv4 address "127.0.0.1" from string to binary representation and stores it in the sin_addr field of the server_addr structure. */
     inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr);
     
     // Bind socket to address and port
