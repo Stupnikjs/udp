@@ -66,3 +66,5 @@ int main() {
 
 
 // send data with this command echo "Hello from netcat!" | nc -u 127.0.0.1 8080
+
+// ps aux to list process
