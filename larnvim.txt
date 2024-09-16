@@ -7,6 +7,8 @@ j bas
 k haut
 l droite
 
+gg debut du fichier
+
 insert mode
 
 Ctrl + D: Scrolls the screen down one line without moving the cursor.
