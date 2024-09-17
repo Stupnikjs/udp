@@ -8,6 +8,8 @@ k haut
 l droite
 gg debut du fichier
 G fin ficher
+dd delete
+u undo
 :w save 
 :q quit
 :number navigate to line
