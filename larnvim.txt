@@ -6,9 +6,10 @@ h gauche
 j bas 
 k haut
 l droite
-
 gg debut du fichier
 G fin ficher
+:w save 
+:q quit
 
 insert mode
 
