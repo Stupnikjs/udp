@@ -13,6 +13,7 @@ u undo
 :w save 
 :q quit
 :number navigate to line
+v select text
 
 insert mode
 
