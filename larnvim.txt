@@ -10,7 +10,7 @@ gg debut du fichier
 G fin ficher
 :w save 
 :q quit
-:set number navigate to line
+:number navigate to line
 
 insert mode
 
