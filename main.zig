@@ -7,6 +7,8 @@ const c = @cImport({
     @cInclude("arpa/inet.h");
 });
 
+
+pub fn main() !void {
 const BUFFER_SIZE: c_int = 1024;
 var sockfd: c_int = c.socket(c.AF_INET, c.SOCK_DGRAM, 0);
 if (sockfd < 0) {
@@ -38,4 +40,5 @@ while (true) {
     c.printf(message);
     c.sendto(sockfd, message, bytes_received, 0, &client_addr, client_len);
     c.free(message);
+}
 }
